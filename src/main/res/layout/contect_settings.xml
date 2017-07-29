@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pythonanywhere.ticatwolves.freeeth.Settings">
+
+
+    <EditText
+        android:id="@+id/ethaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="50dp"
+        android:layout_centerInParent="true"
+        android:hint="Enter you ETH address" />
+
+    <Button
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ethaddress"
+        android:id="@+id/addethadd"
+        android:layout_height="wrap_content"
+        android:text="Save Address"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/custom_buttons"/>
+</RelativeLayout>

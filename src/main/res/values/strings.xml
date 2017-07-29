@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">"Free ETH "</string>
+    <string name="title_activity_home">Earn Free Ethereum</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="balance">0</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-5759830031625110/2792334823</string>
+
+
+</resources>
